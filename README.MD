@@ -1,11 +1,13 @@
-The extracted data must be formatted and stored properly. 
-Ensure that the extracted data is clean and organized coherently.
-Store the data in a database: Use a SQL or NoSQL database to store the extracted information.
+Los datos extraídos deben formatearse y almacenarse correctamente.
 
-Useful technologies:
-	•	Git/GitHub
-	•	Docker
-	•	Python (libraries: BeautifulSoup, Scrapy, Requests, etc.)
-	•	SQL/NoSQL (MySQL, PostgreSQL, MongoDB, etc.)
+Asegúrate de que los datos extraídos estén limpios y organizados de forma coherente.
+Almacena los datos en una base de datos: 
+- utiliza una base de datos SQL o NoSQL para almacenar la información extraída.
 
-Document the code and create a detailed README on GitHub.
+Tecnologías útiles: 
+- Git/GitHub
+- Docker 
+- Python (bibliotecas: BeautifulSoup, Scrapy, Requests, etc.) 
+- SQL/NoSQL (MySQL, PostgreSQL, MongoDB, etc.)
+
+Documenta el código y crea un README detallado en GitHub.
