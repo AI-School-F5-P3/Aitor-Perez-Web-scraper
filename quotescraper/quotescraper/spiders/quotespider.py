@@ -19,5 +19,11 @@ class QuotespiderSpider(scrapy.Spider):
             
         next_page = response.css('li.next a::attr(href)').get()
         if next_page:
-            url_next_page = 'https://quotes.toscrape.com' + next_page
-            yield response.follow(url_next_page, callback=self.parse)
+            next_page_url = 'https://quotes.toscrape.com' + next_page
+            yield response.follow(next_page_url, callback=self.parse)
+
+    def parse_about(self, response, author):
+        yield {
+            'author': author,
+            'about': response.css('.author-description::text').get()
+        }
